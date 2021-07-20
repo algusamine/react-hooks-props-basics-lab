@@ -8,8 +8,8 @@ function About(props) {
       <p>{props.bio}</p>
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
       <div>
-        <a href="https://github.com/liza">{props.github}</a>
-        <a href="https://www.linkedin.com/in/liza/">{props.linkedin}</a>
+        <a href={props.github}>{props.github}</a>
+        <a href={props.linkedin}>{props.linkedin}</a>
       </div>
     </div>
   );} else {
